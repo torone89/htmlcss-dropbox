@@ -38,8 +38,17 @@ a {
 
 /* Utilities */
 
-/* Header */
+.margin-jumbo-content {
+    margin-bottom: 50px;
+}
 
+.center {
+    text-align: center;
+}
+
+
+
+/* Header */
 
 
 #navbar {
@@ -83,11 +92,12 @@ a {
 }
 
 .btn {
-    padding: 5px 15px;
+    padding: 5px 20px;
     border: 1px solid rgb(204, 197, 197);
     color: white;
     background-color: #0060ff;
     text-decoration: none;
+    display: inline;
 }
 
 /* Header * -JUMBOTORN */
@@ -113,6 +123,10 @@ a {
     display: flex;
 }
 
+.jumbo-title h1 {
+    font-size: 80 px;
+
+}
 
 .jumbo-content {
     height: 600px;
@@ -123,15 +137,34 @@ a {
 
 
 .jumbo-content-column {
-    width: 40%;
+    width: 33%;
     height: 600px;
     background-color: green;
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+
+}
+
+.jumbo-content-80 {
+    flex-basis: 80%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+
+}
+
+.jumbo-content-20 {
+    flex-basis: 20%;
 }
 
 .jumbo-content-img {
-    width: 60%;
-    height: 600px;
-    color: aqua;
+    width: 67%;
+
+    background-color: aqua;
+    display: flex;
+    border: 2px black solid;
+
 }
 
 /* Main */
