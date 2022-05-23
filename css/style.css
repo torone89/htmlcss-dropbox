@@ -330,6 +330,36 @@ h2 {
 }
 
 
+/* MAIN - QUADRATI */
+
+#quadrati {
+    background-color: gray;
+    height: 1000px;
+}
+
+.quadrati-boilerplate {
+    display: flex;
+    height: 1000px;
+    width: 100%;
+}
+
+.small-division {
+    flex-basis: 25%;
+    background-color: rgb(214, 133, 11);
+    display: flex;
+}
+
+.small-col {
+    flex-basis: 50%;
+    border: 1px dashed black;
+}
+
+.big-division {
+    flex-basis: 50%;
+    background-color: greenyellow;
+}
+
+
 /* Footer */
 
 footer {
