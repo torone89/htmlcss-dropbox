@@ -18,8 +18,10 @@ body {
 }
 
 .container-large {
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
+    border: 1px dashed black;
+    background-color: aquamarine;
 }
 
 .container-small {
@@ -30,6 +32,67 @@ body {
 /* Utilities */
 
 /* Header */
+
+
+
+#navbar {
+
+    height: 100px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+#jumbotron {
+
+    height: 1000px;
+    background-color: #175790;
+    border: 2px dashed black;
+}
+
+
+.column-jumbo {
+    display: flex;
+    flex-direction: column;
+
+
+
+
+}
+
+.jumbo-title {
+    height: 400px;
+    width: 100%;
+    background-color: rebeccapurple;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+
+}
+
+
+.jumbo-content {
+    height: 600px;
+    background-color: red;
+    width: 100%;
+    display: flex;
+}
+
+
+.jumbo-content-column {
+    width: 40%;
+    height: 600px;
+    background-color: green;
+
+}
+
+.jumbo-content-img {
+    width: 60%;
+    height: 600px;
+    color: aqua;
+}
 
 /* Main */
 
