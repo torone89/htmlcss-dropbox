@@ -3,6 +3,7 @@
 /* 
 light-blue #b3cfe7
 footer :black
+btn:#0060ff
  */
 
 /* Reset */
@@ -37,7 +38,7 @@ body {
 
 
 #navbar {
-    height: 50px;
+    height: 70px;
     background-color: yellow;
     display: flex;
     justify-content: space-between;
@@ -45,6 +46,37 @@ body {
     position: fixed;
     z-index: 1;
     width: 100%;
+    vertical-align: center;
+    line-height: 70px;
+
+
+}
+
+#navbar ul li {
+    display: inline;
+
+    font-size: 20px;
+}
+
+.nav-right li {
+    margin-left: 20px;
+}
+
+.nav-left li {
+    margin-right: 20px;
+}
+
+.nav-right,
+.nav-left {
+    margin: 20px;
+}
+
+.btn {
+    padding: 5px 15px;
+    border: 1px solid rgb(204, 197, 197);
+    color: white;
+    background-color: #0060ff;
+    text-decoration: none;
 }
 
 /* Header * -JUMBOTORN */
