@@ -1,0 +1,36 @@
+/* Color */
+
+/* 
+light-blue #b3cfe7
+footer :black
+ */
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Generic */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-large {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-small {
+    max-width: 1080px;
+    margin: 0 auto
+}
+
+/* Utilities */
+
+/* Header */
+
+/* Main */
+
+/* Footer */
