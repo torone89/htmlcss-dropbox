@@ -311,7 +311,7 @@ h2 {
 }
 
 .col-card {
-    flex-basis: 33%;
+    flex-basis: 30%;
     border: 1px dashed black;
     display: flex;
     flex-direction: column;
