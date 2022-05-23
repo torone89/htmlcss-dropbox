@@ -36,6 +36,23 @@ a {
     margin: 0 auto
 }
 
+/* BUTTON */
+
+
+.btn {
+    padding: 5px 20px;
+    border: 1px solid rgb(204, 197, 197);
+    color: white;
+    background-color: #0060ff;
+    text-decoration: none;
+    display: inline;
+}
+
+.btn-other {
+    background-color: white;
+    color: black;
+}
+
 /* Utilities */
 
 .margin-jumbo-content {
@@ -94,20 +111,11 @@ a {
     text-align: left;
 }
 
-.btn {
-    padding: 5px 20px;
-    border: 1px solid rgb(204, 197, 197);
-    color: white;
-    background-color: #0060ff;
-    text-decoration: none;
-    display: inline;
-}
-
 /* Header * -JUMBOTORN */
 
 #jumbotron {
     height: 1000px;
-    background-color: #175790;
+    background-color: #b3cfe7;
     border: 2px dashed black;
     padding-top: 70px;
 }
@@ -121,14 +129,15 @@ a {
 .jumbo-title {
     height: 400px;
     width: 100%;
-    background-color: rebeccapurple;
     justify-content: center;
     align-items: center;
     display: flex;
+    background-color: #b3cfe7;
 }
 
 .jumbo-title h1 {
-    font-size: 80px;
+    font-size: 85px;
+    font-weight: 700;
 
 }
 
@@ -364,8 +373,8 @@ h2 {
 
 /* MAIN - PROVA */
 #prova {
-    background-color: orange;
-    height: 500px;
+    background-color: #b3cfe7;
+
 
 }
 
@@ -373,10 +382,16 @@ h2 {
 .prova-flex {
     display: flex;
     justify-content: space-around;
-    height: 500px;
+    height: 300px;
     width: 100%;
     align-items: center;
     border: 1px dashed black;
+}
+
+.prova-title {
+    font-size: 40px;
+    color: #63072a;
+    font-weight: 700;
 }
 
 /* MAIN - DOMANDE */
