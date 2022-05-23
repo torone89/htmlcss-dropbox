@@ -359,6 +359,7 @@ h2 {
     background-color: greenyellow;
 }
 
+/* MAIN - PROVA */
 #prova {
     background-color: orange;
     height: 500px;
@@ -372,6 +373,36 @@ h2 {
     height: 500px;
     width: 100%;
     align-items: center;
+    border: 1px dashed black;
+}
+
+/* MAIN - DOMANDE */
+
+.domande-flex {
+    display: flex;
+    flex-direction: column;
+
+    height: 500px;
+    width: 100%;
+    border: 1px dashed black;
+}
+
+.domande-flex-big {
+    flex-basis: 30%;
+    background-color: aquamarine;
+    border: 1px dashed black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.domande-flex-small {
+    flex-basis: 23%;
+    background-color: yellow;
+    border: 1px dashed black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 /* Footer */
