@@ -298,6 +298,37 @@ h2 {
     border: 1px dashed black;
 }
 
+/* MAIN-CARD */
+
+.card {
+    height: 500px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.col-card {
+    flex-basis: 33%;
+    border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-card-img {
+    flex-basis: 50%;
+    border: 1px dashed black;
+}
+
+.row-card-title {
+    flex-basis: 10%;
+    border: 1px dashed black;
+}
+
+.row-card-p {
+    flex-basis: 40%;
+    border: 1px dashed black;
+}
+
 
 /* Footer */
 
