@@ -279,7 +279,24 @@ h2 {
 
 }
 
+/* MAIN- TEAM*/
 
+.partner {
+    height: 500px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+}
+
+.partner-left {
+    flex-basis: 60%;
+    border: 1px dashed black;
+}
+
+.partner-right {
+    flex-basis: 40%;
+    border: 1px dashed black;
+}
 
 
 /* Footer */
