@@ -359,6 +359,20 @@ h2 {
     background-color: greenyellow;
 }
 
+#prova {
+    background-color: orange;
+    height: 500px;
+
+}
+
+
+.prova-flex {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+}
 
 /* Footer */
 
