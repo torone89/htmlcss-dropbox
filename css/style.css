@@ -106,6 +106,7 @@ a {
     height: 1000px;
     background-color: #175790;
     border: 2px dashed black;
+    padding-top: 70px;
 }
 
 
@@ -124,12 +125,12 @@ a {
 }
 
 .jumbo-title h1 {
-    font-size: 80 px;
+    font-size: 80px;
 
 }
 
 .jumbo-content {
-    height: 600px;
+
     background-color: red;
     width: 100%;
     display: flex;
@@ -138,7 +139,7 @@ a {
 
 .jumbo-content-column {
     width: 33%;
-    height: 600px;
+    height: 500px;
     background-color: green;
     display: flex;
     flex-direction: column;
@@ -149,7 +150,7 @@ a {
 .jumbo-content-80 {
     flex-basis: 80%;
     flex-direction: column;
-    justify-content: center;
+
     display: flex;
 
 }
@@ -167,7 +168,81 @@ a {
 
 }
 
+.a-arrow-down {
+    height: 30px;
+    width: 30px;
+}
+
 /* Main */
+
+
+/* BUSINESS PLAN */
+
+h2 {
+    margin: 50px 0;
+    background-color: yellow;
+}
+
+
+.check-box {
+    margin-bottom: 100px;
+}
+
+.btn-check-box {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 5px solid #0060ff;
+    color: white;
+    background-color: white;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.check-content {
+    display: inline
+}
+
+/* BUSINESS PLAN -PLAN*/
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.title-plan {
+    flex-basis: 10%;
+    background-color: rgb(50, 197, 20);
+    border: 1px solid black;
+    display: flex;
+
+}
+
+.content-plan {
+    flex-basis: 90%;
+    background-color: rgb(16, 77, 2);
+    border: 1px solid black;
+    display: flex;
+}
+
+.col-plan {
+    border: 1px dashed black;
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.row-plan {
+    flex-basis: 50%;
+    border: 1px dashed black;
+}
+
 
 /* Footer */
 
