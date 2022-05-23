@@ -15,7 +15,6 @@ footer :black
 /* Generic */
 body {
     font-family: 'Open Sans', sans-serif;
-    padding-bottom: 50px;
 
 }
 
@@ -38,18 +37,19 @@ body {
 
 
 #navbar {
-
     height: 50px;
     background-color: yellow;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     z-index: 1;
     width: 100%;
 }
 
-#jumbotron {
+/* Header * -JUMBOTORN */
 
+#jumbotron {
     height: 1000px;
     background-color: #175790;
     border: 2px dashed black;
@@ -59,10 +59,6 @@ body {
 .column-jumbo {
     display: flex;
     flex-direction: column;
-
-
-
-
 }
 
 .jumbo-title {
@@ -72,9 +68,6 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-
-
-
 }
 
 
@@ -90,7 +83,6 @@ body {
     width: 40%;
     height: 600px;
     background-color: green;
-
 }
 
 .jumbo-content-img {
@@ -102,3 +94,21 @@ body {
 /* Main */
 
 /* Footer */
+
+footer {
+    background-color: blueviolet;
+
+}
+
+.menu-footer {
+    display: flex;
+
+    border-bottom: 1px solid gray;
+}
+
+
+.menu-col {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: space-around;
+}
