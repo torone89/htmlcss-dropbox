@@ -343,33 +343,38 @@ h2 {
 
 /* MAIN-CARD */
 
+.card img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
 .card {
-    height: 500px;
+    height: 600px;
     width: 100%;
-    background-color: aqua;
+
     display: flex;
 }
 
 .col-card {
     flex-basis: 30%;
-    border: 1px dashed black;
+
     display: flex;
     flex-direction: column;
 }
 
 .row-card-img {
     flex-basis: 50%;
-    border: 1px dashed black;
+
 }
 
 .row-card-title {
     flex-basis: 10%;
-    border: 1px dashed black;
+
 }
 
 .row-card-p {
     flex-basis: 40%;
-    border: 1px dashed black;
+
 }
 
 
@@ -480,6 +485,10 @@ footer {
 .font-small {
     font-size: 20px;
     padding: 10px;
+}
+
+.card .font-small {
+    padding: 0;
 }
 
 .font-big {
