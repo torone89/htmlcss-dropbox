@@ -19,8 +19,8 @@ section {
     margin-bottom: 100px;
 }
 
-section #prova {
-    margin-bottom: 0px;
+#quadrati {
+    margin-bottom: 0;
 }
 
 body {
@@ -483,8 +483,6 @@ h2 {
 
 .big-division {
     flex-basis: 33%;
-    ;
-
 }
 
 /* MAIN - PROVA */
