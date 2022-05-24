@@ -19,6 +19,10 @@ section {
     margin-bottom: 100px;
 }
 
+section #prova {
+    margin-bottom: 0px;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 
