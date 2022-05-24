@@ -11,6 +11,7 @@ btn:#0060ff
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 /* Generic */
@@ -43,7 +44,7 @@ a {
 }
 
 .container-large {
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
 
 }
@@ -54,7 +55,6 @@ a {
 }
 
 /* BUTTON */
-
 
 .btn {
     padding: 5px 20px;
@@ -182,7 +182,7 @@ a {
 /* Header * -JUMBOTORN */
 
 #jumbotron {
-    height: 1040px;
+    height: 930px;
     background-color: #b3cfe7;
     border: 2px dashed black;
     padding-top: 70px;
@@ -210,6 +210,7 @@ h1 {
 
 .img-jumbo {
     max-width: 100%;
+    height: 560px;
 }
 
 /* Main */
