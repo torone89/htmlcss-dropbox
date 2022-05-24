@@ -110,6 +110,10 @@ a {
     margin-top: 100px;
 }
 
+.mt-30 {
+    margin-top: 30px;
+}
+
 
 
 .mb-30 {
@@ -288,28 +292,27 @@ h2 {
 
 .title-team {
     flex-basis: 10%;
-    border: 1px dashed black;
-    background-color: yellow;
+    border: 1px solid lightgray;
+
     display: flex;
 }
 
 .content-team {
     flex-basis: 90%;
-    border: 1px dashed black;
-    background-color: rgb(25, 58, 166);
+
     display: flex;
 }
 
 .b-team {
-    flex-basis: 80%;
-    border: 1px dashed black;
-
+    flex-basis: 70%;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
 
 .button-team {
-    flex-basis: 20%;
-    border: 1px dashed black;
-
+    flex-basis: 30%;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
 }
 
 /* MAIN- TEAM*/
