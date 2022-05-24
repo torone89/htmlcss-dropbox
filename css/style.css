@@ -23,6 +23,10 @@ section {
     margin-bottom: 0;
 }
 
+#menu-footer {
+    margin-bottom: 0;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 
@@ -540,10 +544,7 @@ h2 {
 
 /* Footer */
 
-footer {
-    background-color: blueviolet;
 
-}
 
 .menu-footer {
     display: flex;
@@ -551,13 +552,42 @@ footer {
     border-bottom: 1px solid gray;
 }
 
+.col {
+    height: 450px;
+}
 
 .menu-col {
     flex-basis: 20%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
+
+.col li {
+    color: #f5f5f5;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.li-special {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.end-footer {
+    color: #f5f5f5;
+    font-size: 20px;
+    margin-bottom: 40px;
+    height: 100px;
+
+}
+
+footer {
+    height: 550px;
+    background-color: black;
+}
 
 /* FONT */
 
