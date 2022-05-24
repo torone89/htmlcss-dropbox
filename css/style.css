@@ -392,19 +392,95 @@ h2 {
 }
 
 .small-division {
-    flex-basis: 25%;
+    flex-basis: calc(100%/3);
     background-color: rgb(214, 133, 11);
     display: flex;
+    flex-direction: column;
 }
 
 .small-col {
     flex-basis: 50%;
     border: 1px dashed black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.row-quadrato-first {
+    flex-basis: 50%;
+    border: 1px dashed black;
+    background-color: #8e8e8f;
+}
+
+.row-quadrato-second {
+    flex-basis: 50%;
+    border: 1px dashed black;
+
+}
+
+
+.b-verde {
+    background-color: #a1d39a
+}
+
+.b-amaranto {
+    background-color: #61072a;
+}
+
+.b-light-blue {
+    background-color: #0093ce
+}
+
+.b-red {
+    background-color: #fe1c1b
+}
+
+.b-strong-red {
+    background-color: #d4011f;
+
+}
+
+.b-blue-second {
+    background-color: #b3cfe7;
+}
+
+.b-blue {
+    background-color: #0d2481;
+}
+
+.b-yellow {
+    background-color: #ffd72f;
+}
+
+.b-general {
+    background-color: #f5f5f5;
+}
+
+/* COLOR quadrati*/
+
+/* 
+1 #a1d39a Verde
+2 #61072a amaranto 
+3 #0093ce light-blue
+4 #fe1c1b Red
+5 #d4011f strong-red
+6#b3cfe7 blue-second
+7 #0d2481 blue
+8 #ffd72f yellow
+9 #f5f5f5
+*/
+
+
+.small-division {
+    flex-basis: calc(100%/3);
+    background-color: rgb(214, 133, 11);
+    display: flex;
 }
 
 .big-division {
-    flex-basis: 50%;
-    background-color: greenyellow;
+    flex-basis: 33%;
+    ;
+
 }
 
 /* MAIN - PROVA */
