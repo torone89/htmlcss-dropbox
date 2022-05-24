@@ -79,6 +79,7 @@ a {
 
 .center {
     text-align: center;
+
 }
 
 .margin-r {
@@ -91,6 +92,10 @@ a {
 
 .mb-50 {
     margin-bottom: 70px;
+}
+
+.m-l {
+    margin-left: 10px;
 }
 
 .w-30 {
@@ -112,6 +117,10 @@ a {
 }
 
 
+.m-0-40 {
+    margin: 0 40px;
+}
+
 /* Header */
 
 
@@ -125,6 +134,7 @@ a {
     vertical-align: center;
     line-height: 70px;
     background-color: white;
+    box-shadow: 0 1px 3px lightgrey;
 }
 
 #navbar ul li {
@@ -195,7 +205,8 @@ h1 {
 
 h2 {
     margin: 50px 0;
-    background-color: yellow;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 
@@ -215,6 +226,18 @@ h2 {
 
 }
 
+.btn-check-box-grey {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 5px solid #8e8e8f;
+    color: white;
+    background-color: white;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
 .check-content {
     display: inline
 }
@@ -226,37 +249,32 @@ h2 {
     flex-direction: column;
     height: 1000px;
     width: 100%;
-    background-color: aqua;
 }
 
 .title-plan {
     flex-basis: 10%;
-    background-color: rgb(50, 197, 20);
-    border: 1px solid black;
+
+
     display: flex;
 
 }
 
 .content-plan {
     flex-basis: 90%;
-    background-color: rgb(16, 77, 2);
-    border: 1px solid black;
+
+
     display: flex;
 }
 
 .col-plan {
-    border: 1px dashed black;
+    border: 1px solid lightgray;
     flex-basis: 30%;
     display: flex;
-    flex-direction: column;
+
 
 }
 
 
-.row-plan {
-    flex-basis: 50%;
-    border: 1px dashed black;
-}
 
 /* TEAM*/
 
@@ -444,4 +462,49 @@ footer {
     flex-basis: 20%;
     display: flex;
     justify-content: space-around;
+}
+
+
+/* FONT */
+
+.font-small {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.font-big {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.a-special {
+    text-decoration: underline;
+    color: #041344;
+}
+
+div .check:before {
+    content: '✓';
+    color: #0060ff;
+
+    font-size: large;
+
+    margin-right: 3px;
+
+    display: inline
+}
+
+.italic-font {
+    font-style: italic;
+
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+
 }
