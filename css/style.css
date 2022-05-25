@@ -81,6 +81,12 @@ a {
     display: inline-block;
 }
 
+.row-plan .btn-jumbo {
+    display: block;
+    text-align: center;
+
+}
+
 .btn-other {
     background-color: white;
     color: black;
@@ -129,7 +135,9 @@ a {
     margin-top: 30px;
 }
 
-
+.mb-10 {
+    margin-bottom: 10px;
+}
 
 .mb-30 {
     margin-bottom: 30px;
@@ -140,9 +148,6 @@ a {
     margin: 0 40px;
 }
 
-.p-0 {
-    padding: 0;
-}
 
 /* Header */
 
@@ -303,8 +308,6 @@ h2 {
 /* TEAM*/
 
 .team {
-    height: 400px;
-    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -313,13 +316,12 @@ h2 {
 .title-team {
     flex-basis: 10%;
     border: 1px solid lightgray;
-
+    padding: 10px;
     display: flex;
 }
 
 .content-team {
     flex-basis: 90%;
-
     display: flex;
 }
 
@@ -327,15 +329,18 @@ h2 {
     flex-basis: 70%;
     border-left: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
+    padding: 30px;
 }
 
 .button-team {
     flex-basis: 30%;
     border-bottom: 1px solid lightgray;
     border-right: 1px solid lightgray;
+    padding: 10px;
 }
 
 /* MAIN- TEAM*/
+
 
 .partner {
     width: 100%;
@@ -367,8 +372,8 @@ h2 {
 }
 
 .card {
-    height: 600px;
     width: 100%;
+    height: 600px;
 
     display: flex;
 }
@@ -395,6 +400,30 @@ h2 {
 
 }
 
+.row-plan {
+    padding: 20px;
+}
+
+.row-plan li {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+
+.row-plan p {
+    margin-left: 10px;
+}
+
+.check li:before {
+    content: '✓';
+    color: #0060ff;
+
+    font-size: large;
+
+    margin-right: 3px;
+
+    display: inline
+}
 
 /* MAIN - QUADRATI */
 
@@ -620,7 +649,7 @@ footer {
 .font-big {
     font-size: 40px;
     font-weight: 700;
-    padding: 10px;
+
 }
 
 i {
@@ -636,16 +665,7 @@ i {
     color: #041344;
 }
 
-div .check:before {
-    content: '✓';
-    color: #0060ff;
 
-    font-size: large;
-
-    margin-right: 3px;
-
-    display: inline
-}
 
 .italic-font {
     font-style: italic;
