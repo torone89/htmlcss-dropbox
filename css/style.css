@@ -16,6 +16,11 @@ btn:#0060ff
 
 /* Generic */
 
+hr {
+    width: 30%;
+    color: grey;
+}
+
 section {
     margin-bottom: 100px;
 }
@@ -133,6 +138,10 @@ a {
 
 .m-0-40 {
     margin: 0 40px;
+}
+
+.p-0 {
+    padding: 0;
 }
 
 /* Header */
@@ -389,43 +398,57 @@ h2 {
 
 /* MAIN - QUADRATI */
 
-#quadrati {
-    background-color: gray;
-    height: 1000px;
-}
+
 
 .quadrati-boilerplate {
     display: flex;
-    height: 1000px;
-    width: 100%;
+
+}
+
+.division {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .small-division {
-    flex-basis: calc(100%/3);
-    background-color: rgb(214, 133, 11);
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.small-col {
-    flex-basis: 50%;
-    border: 1px dashed black;
+.big-divison {
+    padding: 20px;
+}
+
+.content-big-d {
+    padding: 100px;
+
+}
+
+
+
+.row-quadrato {
+    width: 50%;
+    height: 50%;
     display: flex;
-    flex-direction: row;
-
+    align-items: center;
+    justify-content: center;
+    border: 10px solid transparent;
+    transition: border 1s;
 }
 
-.row-quadrato-first {
-    flex-basis: 50%;
-    border: 1px dashed black;
-    background-color: #8e8e8f;
+.row-quadrato img {
+    width: 50%;
+    filter: invert(1);
 }
 
-.row-quadrato-second {
-    flex-basis: 50%;
-    border: 1px dashed black;
-
+.b-verde:hover {
+    border: 10px solid #d1e9cc
 }
+
+
 
 
 .b-verde {
@@ -480,15 +503,8 @@ h2 {
 */
 
 
-.small-division {
-    flex-basis: calc(100%/3);
-    background-color: rgb(214, 133, 11);
-    display: flex;
-}
 
-.big-division {
-    flex-basis: 33%;
-}
+
 
 /* MAIN - PROVA */
 #prova {
