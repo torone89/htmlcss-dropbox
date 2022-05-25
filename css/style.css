@@ -563,7 +563,7 @@ h2 {
     display: flex;
     flex-direction: column;
 
-    height: 500px;
+
     width: 100%;
 
 }
@@ -579,11 +579,33 @@ h2 {
     flex-basis: 23%;
     border-bottom: 3px solid gray;
     justify-content: space-between;
-
     align-items: center;
     display: flex;
     font-size: 20px;
     font-weight: 700;
+    height: 100px;
+}
+
+
+.i-second {
+    display: none;
+}
+
+
+
+.accordion:hover .i-first {
+    display: none;
+
+}
+
+.accordion:hover .i-second {
+    display: block;
+
+}
+
+.flex-big {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Footer */
